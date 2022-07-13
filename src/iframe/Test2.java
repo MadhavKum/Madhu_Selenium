@@ -18,6 +18,7 @@ public class Test2 {
 		String text=driver.findElement(By.xpath("//a[text()='Blogger']")).getText();
 		
 		System.out.println(text);
+		System.out.println("this is my first test case");
 		
 		driver.switchTo().frame("Framename1");
 		
